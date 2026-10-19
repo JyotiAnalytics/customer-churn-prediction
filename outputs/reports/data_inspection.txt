@@ -1,0 +1,88 @@
+Shape: (7043, 21)
+Columns: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn']
+
+Dtypes:
+customerID              str
+gender                  str
+SeniorCitizen         int64
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges            str
+Churn                   str
+
+Missing values:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+
+Duplicate rows: 0
+Duplicate customerIDs: 0
+
+Target distribution:
+Churn
+No     5174
+Yes    1869
+
+Churn: ['No', 'Yes']
+
+Contract: ['Month-to-month', 'One year', 'Two year']
+
+Dependents: ['No', 'Yes']
+
+DeviceProtection: ['No', 'No internet service', 'Yes']
+
+InternetService: ['DSL', 'Fiber optic', 'No']
+
+MultipleLines: ['No', 'No phone service', 'Yes']
+
+OnlineBackup: ['No', 'No internet service', 'Yes']
+
+OnlineSecurity: ['No', 'No internet service', 'Yes']
+
+PaperlessBilling: ['No', 'Yes']
+
+Partner: ['No', 'Yes']
+
+PaymentMethod: ['Bank transfer (automatic)', 'Credit card (automatic)', 'Electronic check', 'Mailed check']
+
+PhoneService: ['No', 'Yes']
+
+StreamingMovies: ['No', 'No internet service', 'Yes']
+
+StreamingTV: ['No', 'No internet service', 'Yes']
+
+TechSupport: ['No', 'No internet service', 'Yes']
+
+gender: ['Female', 'Male']

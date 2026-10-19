@@ -1,0 +1,34 @@
+Churn rate: 26.5%
+Churn by contract:
+Contract
+Month-to-month    42.7%
+One year          11.3%
+Two year           2.8%
+Churn by payment method:
+PaymentMethod
+Electronic check             45.3%
+Mailed check                 19.1%
+Bank transfer (automatic)    16.7%
+Credit card (automatic)      15.2%
+Churn by tenure band:
+tenure
+(-1, 12]    47.4%
+(12, 24]    28.7%
+(24, 48]    20.4%
+(48, 72]     9.5%
+Churn by TechSupport:
+TechSupport
+No                     41.6%
+No internet service     7.4%
+Yes                    15.2%
+Churn by OnlineSecurity:
+OnlineSecurity
+No                     41.8%
+No internet service     7.4%
+Yes                    14.6%
+
+Monthly revenue associated with churned customers: 139,131 (30.5% of total monthly revenue)
+
+Retention priority: top 140 test customers by predicted risk (avg MonthlyCharges 79.9).
+
+[HYPOTHETICAL - assumptions, not data] offer cost 10/customer, 20% of targeted churners retained for 12 months: value 20,508 vs cost 1,400.

@@ -1,0 +1,11 @@
+test,question,statistic,p_value,significant_at_0.05
+Welch t-test,MonthlyCharges: churn vs non-churn,18.407526676414673,8.592449331547067e-73,True
+Mann-Whitney U,MonthlyCharges: churn vs non-churn,6003125.5,3.311627651988584e-54,True
+Chi-square,Contract vs Churn (dof=2),1184.5965720837926,5.863038300673391e-258,True
+Chi-square,InternetService vs Churn (dof=2),732.309589667794,9.571788222840544e-160,True
+Chi-square,PaymentMethod vs Churn (dof=3),648.1423274814,3.6823546520097993e-140,True
+Chi-square,TechSupport vs Churn (dof=2),828.1970684587394,1.4430840279998987e-180,True
+Chi-square,SeniorCitizen vs Churn (dof=1),159.42630036838742,1.510066805092378e-36,True
+ANOVA,MonthlyCharges across Contract types,20.828045474730267,9.575270975922414e-10,True
+Pearson correlation,tenure vs TotalCharges,0.825880460933202,0.0,True
+Spearman correlation,tenure vs MonthlyCharges,0.27641678933130215,1.0271266876409567e-123,True

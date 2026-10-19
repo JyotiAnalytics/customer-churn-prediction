@@ -1,0 +1,13 @@
+,value
+P(Churn),0.2654
+P(Churn | Month-to-month),0.4271
+P(Churn AND Month-to-month),0.235
+P(Churn | Fiber optic),0.4189
+P(Churn AND Fiber optic),0.1842
+P(Churn | No tech support),0.4164
+P(Churn AND No tech support),0.2053
+P(Churn | Two year),0.0283
+P(Churn AND Two year),0.0068
+Bayes P(Month-to-month | Churn),0.8855
+Direct check P(Month-to-month | Churn),0.8855
+Shapiro p-value (tenure),0.0
